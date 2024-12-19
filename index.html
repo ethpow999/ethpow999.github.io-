@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FEG Website</title>
     <style>
-        /* Base styles for the body */
         body {
             background-color: #1a1a1a; /* Dark background */
             color: #fff;
@@ -13,8 +12,6 @@
             margin: 0;
             padding: 0;
         }
-
-        /* Header styles */
         .header {
             display: flex;
             justify-content: space-between;
@@ -37,8 +34,6 @@
         .header nav a:hover {
             color: #ff00ff; /* Hover effect */
         }
-
-        /* Main content styles */
         .main-content {
             display: flex;
             flex-direction: column; /* Stack items vertically on smaller screens */
@@ -58,8 +53,6 @@
             color: #ccc; 
             margin-bottom: 20px; /* Space below paragraph */
         }
-
-        /* Image and info box styles */
         .character, .gorilla-image {
             width: 100%;
             max-width: 400px;
@@ -77,16 +70,12 @@
         .info-box p:nth-child(2) {
             color: #ff00ff; /* Pink for second sentence */
         }
-
-        /* Contract address styling */
         .contract-address {
             font-size: 1.5em; /* Increase font size */
             font-weight: bold; /* Bold text */
             color: #ff0; /* Bright yellow */
             margin-top: 10px; /* Space above the address */
         }
-
-        /* Responsive design */
         @media (min-width: 768px) { /* For screens wider than 768px */
             .main-content {
                 flex-direction: row; /* Layout items side by side for larger screens */
@@ -102,7 +91,6 @@
 </head>
 <body>
     <header class="header">
-        <!-- Ensure logo.png is in the same directory -->
         <img src="logo.png" alt="FEG Logo">
         <nav>
             <a href="#">FEG Token</a>
@@ -118,7 +106,6 @@
                 <p>Feg circulation is 100 million and airdrops 10,000 pieces to 10,000 people, each with 10,000 pieces</p>
             </div>
         </div>
-        <!-- Ensure gorilla-character.png is in the same directory -->
         <img class="gorilla-image" src="gorilla-character.png" alt="Gorilla Character">
         <p class="contract-address">0x43F4590FFF471E1c12c26a97B74acB4d318148d3</p>
     </section>
